@@ -9,7 +9,7 @@
     },
     "exports": {
         ".": "./src/index.ts",
-        "./cli-chat": "./src/cli-chat/index.ts"
+        "./cli-chat": "./src/cli-chat/index.tsx"
     },
     "license": "MIT",
     "type": "module",
