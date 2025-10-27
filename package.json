@@ -7,6 +7,10 @@
     "peerDependencies": {
         "typescript": "^5.9.3"
     },
+    "exports": {
+        ".": "./src/index.ts",
+        "./cli-chat": "./src/cli-chat/index.ts"
+    },
     "license": "MIT",
     "type": "module",
     "dependencies": {
