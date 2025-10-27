@@ -75,9 +75,5 @@ bun install        # install dependencies
 bun run src/index.ts
 ```
 
-## Roadmap
-- Pluggable memory/state stores for agent experiments.
-- Evaluation harnesses for benchmarking prompt strategies.
-- Browser and TUI bridges for hybrid workflows.
-
+## Contributions
 Contributions, bug reports, and ideas are welcome—open an issue or PR when you build something others can reuse.
