@@ -1,6 +1,6 @@
 import { render } from "ink";
 import { createRef, forwardRef, useImperativeHandle, useRef, useState } from "react";
-import { ChatUI, type ChatMessage } from "./chat";
+import { type ChatMessage, ChatUI } from "./chat";
 
 type InputListener = (input: string) => void;
 
@@ -47,14 +47,7 @@ const ChatController = forwardRef<ChatControllerHandle>((_, ref) => {
         sendMessage: pushAssistantMessage,
     }));
 
-    return (
-        <ChatUI
-            messages={messages}
-            input={input}
-            onInputChange={handleInputChange}
-            onSubmit={handleSubmit}
-        />
-    );
+    return <ChatUI messages={messages} input={input} onInputChange={handleInputChange} onSubmit={handleSubmit} />;
 });
 
 export function renderChatUI(): {

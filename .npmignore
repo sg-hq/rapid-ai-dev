@@ -1,0 +1,11 @@
+src/
+tsconfig.json
+biome.json
+bun.lock
+.git/
+.gitignore
+.npmrc
+*.log
+node_modules/
+CLAUDE.md
+
