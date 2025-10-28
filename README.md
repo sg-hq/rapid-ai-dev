@@ -1,4 +1,10 @@
+<div align="center">
+
+![Banner](./.github/assets/banner.png)
+
 # @photon-ai/rapid
+
+</div>
 
 Toolkit for rapid AI and agent prototyping. Rapid gives you reusable building blocks so you can validate new agent architectures, memory systems, and workflows without rebuilding the interface layer every time.
 
